@@ -38,7 +38,7 @@ type User struct {
 }
 
 func (dao *DAO) GetUser(ctx Context, id ID) future.Future {
-	url := "http://localhost:9090/user/"
+	url := "http://user-service:9090/user/"
 
 	httpClient := http.Client{
 		Timeout: time.Second * 2, // Maximum of 2 secs
