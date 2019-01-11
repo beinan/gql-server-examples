@@ -1,7 +1,7 @@
 # 安装Golang 
 
 ## 下载安装
-官网：
+* 官网：
 https://golang.org/dl/
 
 # 编写Go代码
